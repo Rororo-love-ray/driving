@@ -6,8 +6,10 @@ if country == 'Taiwan':
 		print ('you may drive')
 	else:
 		print ('you cannot drive')
-if country == 'USA':
-	if age >= 20:
+elif country == 'USA':
+	if age >= 16:
 		print ('you may drive')
 	else:
 		print ('you cannot drive')
+else:
+	print ('you are not from Taiwan or USA')
